@@ -8,5 +8,7 @@ function ApiFullScreenAtk() {
 }
 
 function attack() {
-    
+    const container = document.getElementById("attack-container")
+    container.classList.remove("display-none")
+    document.documentElement.requestFullscreen();
 }
