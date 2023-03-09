@@ -1,5 +1,5 @@
 .display-none {
-    display: none;
+    display: none !important;
 }
 
 .fullscreen {
@@ -16,3 +16,18 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+#attack-container {       
+    position: fixed;
+    background: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td {
+	font-size: 24px !important;
+}
+
